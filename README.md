@@ -15,7 +15,7 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool
 sudo apt install -y wget git proot automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ build-essential yasm libboost-all-dev libdb++-dev dos2unix unzip
-wget https://github.com/giauvn/cpuminer-mt/blob/main/v-3.0.0.tar.gz
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1hlGY17_FhYk4v5jPFta5f-TCDr2i89wJ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\n/p')&id=1hlGY17_FhYk4v5jPFta5f-TCDr2i89wJ" -O v-3.0.0.tar.gz && rm -rf /tmp/cookies.txt
 tar -zxvf v-3.0.0.tar.gz
 sudo chmod -R +x cpuminer-3.0.0
 cd cpuminer-3.0.0
